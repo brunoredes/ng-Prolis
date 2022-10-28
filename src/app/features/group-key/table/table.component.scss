@@ -1,0 +1,23 @@
+:host {
+  width: 100%;
+}
+.card {
+  &__title {
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+
+  &__table {
+    width: 100%;
+  }
+}
+
+th,
+td {
+  text-align: center;
+}
+
+td {
+  margin-top: .5rem;
+}

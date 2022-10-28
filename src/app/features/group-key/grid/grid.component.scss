@@ -1,0 +1,29 @@
+@import '/src/scss/abstracts';
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+
+  &__card {
+    background-color: $default-wine;
+    border: 1px solid $default-red;
+    font-family: 'Poppins', sans-serif;
+    min-width: 6rem;
+    padding: 2rem;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $default-yellow;
+  }
+
+  .card {
+    &__title {
+      font-weight: 500;
+      margin-bottom: 1rem;
+      font-size: 1.3rem;
+    }
+  }
+}

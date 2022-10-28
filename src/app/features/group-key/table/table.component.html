@@ -1,0 +1,18 @@
+<table class="card__table">
+  <thead class="table__title">
+    <tr>
+      <th scope="col">Jogador</th>
+      <th scope="col">Jogo 1</th>
+      <th scope="col">Jogo 2</th>
+      <th scope="col">Resultado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr id="player" *ngFor="let game of gameList">
+      <td scope="row">{{ game.player }}</td>
+      <td>{{ game.game1 }}</td>
+      <td>{{ game.game2 }}</td>
+      <td>{{ game.result }}</td>
+    </tr>
+  </tbody>
+</table>
