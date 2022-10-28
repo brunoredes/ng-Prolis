@@ -1,0 +1,10 @@
+
+:host {
+  flex: 1 1 auto;
+  width: 60%;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-around;
+}

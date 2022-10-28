@@ -9,6 +9,13 @@
 
   font-family: 'Roboto', sans-serif;
 }
+.header__logo, .header__navigation {
+  flex: 0 1 auto;
+}
+
+.header__navigation {
+  width: 60%;
+}
 
 .footer {
   align-self: center;

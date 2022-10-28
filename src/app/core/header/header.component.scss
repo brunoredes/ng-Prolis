@@ -1,15 +1,17 @@
-:host {
-    padding: 3rem;
-}
-.header {
-    &__link-home {
-        display: block;
-        width: 100%;
-        height: 100%;
-        
-    }
+@import '/src/scss/abstracts';
 
-    &__logo {
-        max-width: 50%;
-    }
+:host {
+  padding: 3rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include devices(mobile) {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
