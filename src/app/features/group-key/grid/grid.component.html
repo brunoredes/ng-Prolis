@@ -1,0 +1,6 @@
+<div class="grid">
+  <section class="grid__card" *ngFor="let data of prolisList">
+    <h1 class="card__title">{{ data.keyName }}</h1>
+    <app-table [gameList]="data.gameInfoList"></app-table>
+  </section>
+</div>

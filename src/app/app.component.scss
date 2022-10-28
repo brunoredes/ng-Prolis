@@ -1,0 +1,17 @@
+@import '../scss/main.scss';
+
+:host {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: $default_purple;
+  color: #fff;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+  align-self: center;
+  width: 50%;
+  padding: 2rem;
+}

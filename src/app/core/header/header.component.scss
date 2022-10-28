@@ -1,0 +1,15 @@
+:host {
+    padding: 3rem;
+}
+.header {
+    &__link-home {
+        display: block;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    &__logo {
+        max-width: 50%;
+    }
+}
