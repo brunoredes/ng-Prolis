@@ -4,19 +4,19 @@ import { RouterModule, Routes } from "@angular/router";
 import { GroupKeyComponent } from "./group-key.component";
 
 const groupKeyRoutes: Routes = [
-    {
-        path: '',
-        component: GroupKeyComponent
-    }
+  {
+    path: '',
+    component: GroupKeyComponent
+  }
 ];
 
 @NgModule({
-    imports: [
-        RouterModule.forChild(groupKeyRoutes),
-        CommonModule
-    ],
-    exports: [],
-    declarations: [],
-    providers: []
+  imports: [
+    RouterModule.forChild(groupKeyRoutes),
+    CommonModule
+  ],
+  exports: [RouterModule],
+  declarations: [],
+  providers: []
 })
 export class GroupKeyRoutingModule { }

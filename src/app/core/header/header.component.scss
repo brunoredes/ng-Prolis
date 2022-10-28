@@ -15,10 +15,18 @@
     justify-content: center;
     flex-direction: column;
   }
+
+  &__logo {
+    flex: 0 1 auto;
+  }
 }
 
-.navigation__list {
-  display: flex;
-  justify-content: space-around;
+.navigation {
   flex: 1 1 auto;
+  font-weight: 500;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10rem;
+  }
 }
