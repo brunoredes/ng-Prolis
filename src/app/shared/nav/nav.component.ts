@@ -7,14 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav.component.scss']
 })
 export class NavComponent implements OnInit {
-  public days: string[] = [
-    'Dia 1 - Grupos',
-    'Dia 2 - Winner',
-    'Dia 3 - Lower',
-    'Dia 4 - Winner',
-    'Dia 5 - Lower',
-    'Dia 6 - Winner'
-  ];
+
   constructor(private router: Router) { }
 
   ngOnInit(): void {

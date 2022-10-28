@@ -1,3 +1,16 @@
 <header class="header">
-  <ng-content></ng-content>
+  <!-- <a routerLink="home" class="header__link-home"> -->
+  <img
+    src="assets/images/prolis_hover.png"
+    alt="Logotipo Pro Legends"
+    class="header__logo"
+  />
+  <!-- </a> -->
+  <nav class="navigation">
+    <ul class="navigation__list">
+      <li *ngFor="let day of days" class="navigation__item">
+        <a routerLink="">{{ day }}</a>
+      </li>
+    </ul>
+  </nav>
 </header>

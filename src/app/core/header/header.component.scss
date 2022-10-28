@@ -8,10 +8,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 5rem 0 5rem;
 
   @include devices(mobile) {
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 auto;
 }
